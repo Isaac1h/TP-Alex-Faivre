@@ -1,0 +1,10 @@
+# Dossiers Terraform
+.terraform/
+
+# Fichiers d'état (Contient des infos sensibles)
+*.tfstate
+*.tfstate.*
+
+# Fichiers de log et verrouillage
+*.lock.hcl
+*.log
