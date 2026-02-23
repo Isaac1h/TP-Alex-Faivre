@@ -53,7 +53,6 @@ terraform apply  # Exécution (Tapez 'yes' pour confirmer)
 ## ⚠️ Défis Techniques & Solutions (Troubleshooting)
 
 | Problème | Cause | Solution |
-| :--- | :--- | :--- |
 | **Binaire non reconnu** | Fichier `.exe` mal renommé ou variable `PATH` absente. | Installation via **Winget** pour automatiser la déclaration système. |
 | **Commande 'az' inconnue** | Azure CLI manquant sur l'hôte. | Installation du package `Microsoft.AzureCLI` et redémarrage du terminal. |
 | **"Opération annulée"** | Blocage de sécurité Windows SmartScreen (binaire non signé). | Utilisation de la commande `Unblock-File` en PowerShell ou passage par Winget. |
