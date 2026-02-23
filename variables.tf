@@ -1,17 +1,13 @@
 variable "location" {
-  description = "Région Azure pour le déploiement"
-  type        = string
-  default     = "France Central"
+  default = "France Central"
 }
 
 variable "prefix" {
-  description = "Préfixe utilisé pour nommer les ressources"
-  type        = string
-  default     = "tp-azure"
+  default = "tp-azure"
 }
 
+# Facultatif avec la clé SSH, mais utile pour ne pas casser le code existant
 variable "admin_password" {
-  description = "Mot de passe de la VM"
-  type        = string
-  sensitive   = true
+  type      = string
+  sensitive = true
 }

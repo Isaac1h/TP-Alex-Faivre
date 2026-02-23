@@ -1,9 +1,20 @@
-# Ignorer les fichiers d'état (qui contiennent ton mdp en clair !)
+# Fichiers de configuration locale de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers d'état (Contiennent des infos sensibles en clair !)
 *.tfstate
 *.tfstate.backup
 
-# Ignorer le dossier des plugins
-.terraform/
-
-# Ignorer les fichiers de variables secrètes (qu'on va créer après)
+# Variables sensibles (où tu mets tes mots de passe)
 *.tfvars
+*.tfvars.json
+
+# Clés SSH générées
+.ssh/
+id_rsa
+id_rsa.pub
+
+# Journaux d'erreurs
+crash.log
+*.log
