@@ -65,7 +65,12 @@ terraform apply  # Exécution (Tapez 'yes' pour confirmer)
 
 Une fois le déploiement terminé, la machine virtuelle est pleinement opérationnelle et accessible via SSH. L'intégralité de l'infrastructure est désormais pilotée par le code (IaC), garantissant une reproductibilité totale.
 
+<img width="420" height="129" alt="image" src="https://github.com/user-attachments/assets/3d625b50-ebf3-462a-9655-35f5188df50d" />
 
+---
+**Auteur :** Isaac Hassani
+```
+<p align="center">
 <img width="735" height="311" alt="Image" src="https://github.com/user-attachments/assets/d90afd80-7ef9-43c2-9011-4c957b0ba7b7" />
 <img width="446" height="69" alt="Image" src="https://github.com/user-attachments/assets/11d28fde-254f-4bdd-956b-d01a0c07cb9b" />
 <img width="261" height="240" alt="Image" src="https://github.com/user-attachments/assets/94efcd09-4b06-4b2c-9b91-2855a59ef822" />
@@ -75,9 +80,7 @@ Une fois le déploiement terminé, la machine virtuelle est pleinement opératio
 <img width="436" height="473" alt="Image" src="https://github.com/user-attachments/assets/8b82cd8e-86f8-4a50-9833-63d3a96ce176" />
 <img width="1121" height="330" alt="Image" src="https://github.com/user-attachments/assets/0cddd0d3-5a34-4f58-a848-427f90bbfbbc" />
 <img width="1111" height="209" alt="Image" src="https://github.com/user-attachments/assets/1669f1e2-3277-48e4-9ab5-228ac1b75edf" />
+</p>
 
-<img width="420" height="129" alt="image" src="https://github.com/user-attachments/assets/3d625b50-ebf3-462a-9655-35f5188df50d" />
 
----
-**Auteur :** Isaac Hassani
-```
+
